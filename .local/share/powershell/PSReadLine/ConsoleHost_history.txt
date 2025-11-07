@@ -1,0 +1,56 @@
+ dotnet –info | Select-String version
+az vm list-usage --location "UK South" -o table
+az appservice list-limits
+az provider list --query "[?registrationState!='Registered'].{Provider:namespace,State:registrationState}" -o table
+az appservice list-locations
+az appservice list-locations --sku S1 -o table
+az resource list --resource-type "Microsoft.Web/serverfarms" -o table
+az monitor activity-log list --max-events 5 -o table
+az provider show -n Microsoft.Web | Select-String RegistrationState
+az appservice plan list -o table
+git clone https://github.com/kb223-mmr/app-win-dotnet-uks-mmr-007-001.git
+dotnet new webapp
+dotnet run --urls
+"http://localhost:5005"curl -I http://localhost:5005
+curl -I http://localhost:5005
+dotnet run --urls
+curl http://localhost:5005
+"http://localhost:5005"
+dotnet run --urls
+curl http://localhost:5005
+dotnet new webapp
+dotnet new webapp --force
+dotnet run --urls
+curl http://localhost:5005
+curl http://localhost:5182
+curl -I http://localhost:5182
+curl http://localhost:5182
+git config --global user.email "kb223_mmr@student.ztu.edu.ua"
+git config --global user.name "kb223_mmr"
+git config --global user.name "kb223-mmr"
+git add .
+ls -a
+cd app-win-dotnet-uks-mmr-007-001
+ls -a
+git config --global user.email "kb223_mmr@student.ztu.edu.ua"
+git config --global user.name "kb223-mmr"
+git add .
+git commit -m "add initial .NET app"
+git push
+git commit -m "add initial .NET app"
+ls -a
+git config --global user.name "kb223_mmr"
+git config --global user.email "kb223_mmr@student.ztu.edu.ua"
+git add . 
+git commit -m "add initial .NET app"
+cd
+git config --global user.email "kb223_mmr@student.ztu.edu.ua"
+git config --global user.name "kb223_mmr"
+git add . 
+cd /home/kb223_2025_mmr/app-win-dotnet-uks-mmr-007-001
+mv .git ..
+св
+cd
+git config --global user.email "kb223_mmr@student.ztu.edu.ua"
+git config --global user.name "kb223_mmr"
+git add . 
